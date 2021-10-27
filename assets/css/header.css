@@ -1,0 +1,19 @@
+.header_container{
+    max-inline-size: 304px;
+    margin-inline: 27px;
+}
+summary{
+    color: var(--colorTitle);
+    font-size: 15px;
+}
+nav li{
+    margin-block-end: 16px;
+}
+a{
+    text-decoration: none;
+    color: var(--colorTexto);
+    font-size: 14px;
+}
+a:hover{
+    color: var(--colorTitle);
+}

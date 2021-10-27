@@ -1,0 +1,121 @@
+.main h1{
+    /* border : 2px solid red; */
+    margin-block: 0 16px;   
+    font-weight: 700;
+    font-size: 32px;
+    line-height: 39px;
+    display: inline-block;
+}
+
+.main h2{
+    font-size: 40px;
+    line-height: 48px;
+    margin-block: 40px;  
+}
+.main h3{
+    font-size: 24px;
+    font-weight: 600;
+    line-height: 29px;
+}
+.main p{
+    margin-block-end: 40px;
+}
+.main img{
+    margin-block-end: 16px;
+    display: block;
+    max-inline-size: 100%;
+  
+}
+pre{
+    overflow: auto;
+}
+blockquote{
+    background:var(--colorSecondary);
+    margin: 0;
+    margin-block-end: 40px;
+    color: var(--colorPrimary);
+    font-size: 16px;
+    line-height: 32px;
+    padding:16px;
+    border-radius: 8px;
+}
+blockquote span::before{
+    content: '- ';
+
+}
+.section_boxModel li{
+    line-height: 24px;
+    margin-block-end: 16px;    
+}
+.section_boxModel span {
+    color: var(--colorTitle);
+}
+.section_boxModel a{
+    color: var(--colorTitle);
+    font-size: 17px;
+}
+.section_boxModel a:hover{
+    color: var(--colorTexto);
+}
+.section_boxModel h3{
+    font-weight: 400;
+}
+.slider{
+    display: inline-block;
+    inline-size: 15px;
+    block-size: 15px;
+    background: var(--colorwhite-20);
+    border-radius: 50%;
+  
+}
+/* FORM */
+.form input{
+    inline-size: 100%;
+    box-sizing: border-box;
+    border: 1px solid var(--colorTitle);
+    height: 48px;
+    border-radius: 8px;
+    background: none;
+    color: var(--colorTitle);
+    line-height: 24px;
+    font-size: 16px;
+    padding: 16px;
+    margin-block-end: 24px;
+}
+.form input[type="submit"]{
+    background:var(--colorlightGray) ;
+    color: var(--colorPrimary);
+    font-weight: 700;
+}
+.form ::-webkit-input-placeholder{
+    color: var(--colorTitle);
+}
+/* SLIDER    */
+.slider_container {
+    /* border : 2px solid blue; */
+    block-size: auto;
+    display: block;
+    overflow: hidden;
+    scroll-behavior: smooth;
+    white-space: nowrap;
+    font-size: 0;
+    margin-bottom: 15px;
+}
+.slider_butlet_list {
+    /* border : 2px solid red; */
+    text-align: center;
+    margin-block-start: 10px;
+}
+.butlet_list {
+    display: inline-block;
+    inline-size: 15px;
+    block-size: 15px;
+    background: var(--colorTitle);
+    border-radius: 50%;
+}
+.butlet_list:hover {
+    background: var(--colorPrimary);
+    border : 1px solid white;
+}
+  
+  

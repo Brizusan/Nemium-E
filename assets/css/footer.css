@@ -1,0 +1,26 @@
+footer{
+    background-color: var(--colorlightGray);
+    color: var(--colorPrimary);
+    padding: 48px;
+    align-items: center;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    font-size: 24px;
+    font-weight: normal;
+    line-height: 28px;
+}
+
+.footer_info{
+    margin-block-end: 16px;
+}
+.footer_social i:nth-child(2){
+    margin-inline-end: 16px;
+    margin-inline-start: 16px;
+}
+.footer_social .fab{
+    color: var(--colorPrimary);
+}
+.footer_social .fab:hover{
+    color: var(--colorSecondary);
+}
